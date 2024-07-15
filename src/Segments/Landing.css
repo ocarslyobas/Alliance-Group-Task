@@ -352,6 +352,10 @@
         
     }
 
+    .info-text{
+        width: fit-content;
+    }
+
     .info-text p{
         text-align: left;
         font-size: 10px;
@@ -379,7 +383,7 @@
         min-height: 100vh;
         background: #122038;
         margin-inline: auto;
-        top: 30px;
+        top: 0px;
         
     }
 

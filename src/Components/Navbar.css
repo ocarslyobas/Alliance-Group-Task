@@ -97,10 +97,23 @@
 
 .menu{
     display: none;
-    background: #5BFB94;
+    color: #5BFB94;
     font-size: 30px;
     
 }
+
+.menu-icon-image{
+    background: #5BFB94;
+    width: 30px;
+    height: 30px;
+}
+
+.close-icon-menu{
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+}
+
 .mobilemenuicon{
     
     display: none;
@@ -280,7 +293,9 @@
 /* responsive mobile devices */
 
 @media(max-width:420px){
-    
+    .nav-container{
+        top: 0px;
+    }
 
     .nav-logo2{
         

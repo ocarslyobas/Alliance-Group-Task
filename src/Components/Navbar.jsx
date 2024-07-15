@@ -1,6 +1,6 @@
 import React from 'react';
 import './Navbar.css';
-import { getstartedarrow,Allianzlogo } from '../assets/imgAssets.Js';
+import { getstartedarrow,Allianzlogo,CloseIconsvg,MenuIconsvg } from '../assets/imgAssets.Js';
 import { GiHamburgerMenu } from "react-icons/gi";
 import {MdCancel} from 'react-icons/md';
 import {useState} from 'react';
@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
 
           <div className="menu"onClick={()=> (setIsActive(true))}>
-          <GiHamburgerMenu />
+            <img className='menu-icon-image' src={MenuIconsvg} alt="loading.." />
           </div>
             <div className={`mobilemenuicon ${isActive?"active":""}`}>
             <div className='nav-logo2'><img src={Allianzlogo} alt="" /></div>
@@ -51,7 +51,7 @@ const Navbar = () => {
                 <li onClick={removenav}> <a href="#contact-session"> ContactUs </a></li>        
               </ul>
               <div className="closeicon" onClick={()=> setIsActive(false)}>
-              <MdCancel/>
+              <img className='close-icon-menu' src={CloseIconsvg} alt="loading.." />
             </div>
             </div>
 

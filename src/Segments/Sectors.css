@@ -106,13 +106,14 @@
 
         .sector-textcontent{
     
-            max-width: 700px;
+            max-width: 300px;
             margin-top: 50px;
             margin-left: 10px;
         }
 
         .header{
             height: fit-content;
+            max-width: 350px
         }
 
         .paragraph-text{

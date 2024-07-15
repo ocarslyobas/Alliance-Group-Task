@@ -240,6 +240,11 @@
         top: 50px;
     }
 
+    .info-head{
+        width: 350px;
+        font-size: 18px;
+    }
+
     .services-heading{
         top: 0px;
     }
@@ -247,12 +252,13 @@
     .messages-text {
         left: 0px;
         top: 850px;
-        width: 380px; 
+        width: 370px;; 
            
     }
 
     .messages-text p{
         padding-left: 10px;
+        font-size: 15px;
     }
 
     .messages-header {

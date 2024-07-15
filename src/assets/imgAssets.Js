@@ -31,10 +31,14 @@ import servicesnetwork from './page4/servicesnetwork.png';
 import servicessecurity from './page4/servicessecurity.png';
 import servicesexpert from './page4/servicesexpert.png';
 import servicesmain from './page4/servicesmain.png';
+import MenuIconsvg from './page1/MenuIcon.svg';
+import CloseIconsvg from './page1/CloseIcon.svg';
 
 
 
 export{
+        CloseIconsvg,
+        MenuIconsvg,
         Allianzlogo,
         getstartedarrow,
         Discovermorearrow,
