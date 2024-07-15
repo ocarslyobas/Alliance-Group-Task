@@ -1,8 +1,6 @@
 import React from 'react';
 import './Navbar.css';
 import { getstartedarrow,Allianzlogo,CloseIconsvg,MenuIconsvg } from '../assets/imgAssets.Js';
-import { GiHamburgerMenu } from "react-icons/gi";
-import {MdCancel} from 'react-icons/md';
 import {useState} from 'react';
 
 
